@@ -153,5 +153,5 @@ class CosSinLU(nn.Module):
         nn.init.constant_(self.b, 1.0)
 
     def forward(self, x):
-        return F.sigmoid(x) * (x + self.a * torch.cos(torch.sin(self.b * x))) / 2
+        return F.sigmoid(x) * (x + self.a * torch.cos(torch.tan(torch.sin(self.b * x))))
     
