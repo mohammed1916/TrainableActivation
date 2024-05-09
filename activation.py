@@ -142,3 +142,16 @@ class CosLU(nn.Module):
 
     def forward(self, x):
         return F.sigmoid(x) * (x + self.a * torch.cos(self.b * x))
+
+class CosSinLU(nn.Module):
+    def __init__(self):
+        super(CosSinLU, self).__init__()
+        self.a = nn.Parameter(torch.empty(1))
+        self.b = nn.Parameter(torch.empty(1))
+
+        nn.init.constant_(self.a, 1.0)
+        nn.init.constant_(self.b, 1.0)
+
+    def forward(self, x):
+        return F.sigmoid(x) * (x + self.a * torch.cos(torch.sin(self.b * x)))
+    
