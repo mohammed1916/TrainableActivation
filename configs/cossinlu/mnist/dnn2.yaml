@@ -29,13 +29,13 @@ dataset:
 train:
   epochs: 10
   device: cuda:0
-  save_path: ./checkpoints/coslu/mnist/
-  log_path: ./logs/coslu/mnist/
+  save_path: ./checkpoints/cossinlu/mnist/
+  log_path: ./logs/cossinlu/mnist/
   seed: 42
   save_every: 2
 
 test:
   device: cuda:0
-  checkpoint: ./checkpoints/coslu/mnist/
-  log_path: ./logs/coslu/mnist/
+  checkpoint: ./checkpoints/cossinlu/mnist/
+  log_path: ./logs/cossinlu/mnist/
   seed: 42
