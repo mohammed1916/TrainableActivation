@@ -18,9 +18,9 @@ def metrics(model, dataloader, device):
     with torch.no_grad():
         for batch in dataloader:
             imgs, labels = batch
-            imgs = imgs.to(device)
+            # imgs = imgs.to(device)
 
-            labels = labels.to(device).cpu()
+            # labels = labels.to(device).cpu()
             preds = model(imgs).argmax(dim=1).cpu()
 
             tmp_accuracy = accuracy_score(labels, preds)

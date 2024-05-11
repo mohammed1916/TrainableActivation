@@ -40,7 +40,7 @@ def test():
     os.makedirs(log_path, exist_ok=True)
     logger = get_logger(log_path + 'test.log')
 
-    model = model.to(device)
+    # model = model.to(device)
 
     logger.info(f'\n{args_str}')
     logger.info(f'\n{str(model)}')
@@ -57,7 +57,7 @@ def test():
     start = time.time()
 
     for checkpoint in checkpoints:
-        model.load_state_dict(torch.load(checkpoint, map_location=device))
+        model.load_state_dict(torch.load(checkpoint, map_location=torch.device('cpu')))
         model.eval()
 
         test_loss = 0.0
@@ -65,8 +65,8 @@ def test():
         with torch.no_grad():
             for batch in test_data_loader:
                 imgs, labels = batch
-                imgs = imgs.to(device)
-                labels = labels.to(device)
+                # imgs = imgs.to(device)
+                # labels = labels.to(device)
                 preds = model(imgs)
                 loss = loss_fn(preds, labels)
                 test_loss += loss.item()

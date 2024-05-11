@@ -55,7 +55,7 @@ def train():
     save_path = f"{args['train']['save_path']}{args['model']['name'].lower()}/"
     os.makedirs(save_path, exist_ok=True)
 
-    model = model.to(device)
+    # model = model.to(device)
 
     logger.info(f'\n{args_str}')
     logger.info(f'\n{str(model)}')
@@ -94,8 +94,8 @@ def train():
 
         for batch in train_data_loader:
             imgs, labels = batch
-            imgs = imgs.to(device)
-            labels = labels.to(device)
+            # imgs = imgs.to(device)
+            # labels = labels.to(device)
             preds = model(imgs)
             loss = loss_fn(preds, labels)
             optimizer.zero_grad()
@@ -108,8 +108,8 @@ def train():
         with torch.no_grad():
             for batch in valid_data_loader:
                 imgs, labels = batch
-                imgs = imgs.to(device)
-                labels = labels.to(device)
+                # imgs = imgs.to(device)
+                # labels = labels.to(device)
                 preds = model(imgs)
                 loss = loss_fn(preds, labels)
                 valid_loss += loss.item()
