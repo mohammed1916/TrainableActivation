@@ -50,3 +50,141 @@ clip: [0.0, 3.0]
 2023-01-10 15:41:49,617 | INFO | processed dnn2 mnist coslu
 2023-01-10 15:41:49,967 | INFO | processed dnn3 mnist coslu
 2023-01-10 15:41:50,278 | INFO | processed dnn5 mnist coslu
+2024-05-11 13:56:00,604 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 13:56:00,713 | INFO | processed dnn2 mnist coslu
+2024-05-11 13:56:00,827 | INFO | processed dnn3 mnist coslu
+2024-05-11 13:56:00,891 | INFO | processed dnn5 mnist coslu
+2024-05-11 14:00:13,123 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:00:13,223 | INFO | processed dnn2 mnist coslu
+2024-05-11 14:00:13,331 | INFO | processed dnn3 mnist coslu
+2024-05-11 14:00:13,390 | INFO | processed dnn5 mnist coslu
+2024-05-11 14:05:26,827 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:05:26,939 | INFO | processed dnn2 mnist coslu
+2024-05-11 14:05:27,047 | INFO | processed dnn3 mnist coslu
+2024-05-11 14:05:27,108 | INFO | processed dnn5 mnist coslu
+2024-05-11 14:14:58,248 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:14:58,358 | INFO | processed dnn2 mnist coslu
+2024-05-11 14:14:58,468 | INFO | processed dnn3 mnist coslu
+2024-05-11 14:14:58,529 | INFO | processed dnn5 mnist coslu
+2024-05-11 14:15:37,090 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:15:50,419 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:16:07,812 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:17:05,357 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:17:05,470 | INFO | processed dnn2 mnist coslu
+2024-05-11 14:17:05,598 | INFO | processed dnn3 mnist coslu
+2024-05-11 14:17:05,663 | INFO | processed dnn5 mnist coslu
+2024-05-11 14:19:40,149 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:20:02,294 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:20:02,382 | INFO | processed dnn2 mnist coslu
+2024-05-11 14:20:02,490 | INFO | processed dnn3 mnist coslu
+2024-05-11 14:20:02,551 | INFO | processed dnn5 mnist coslu
+2024-05-11 14:20:38,374 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:20:38,466 | INFO | processed dnn2 mnist coslu
+2024-05-11 14:20:38,577 | INFO | processed dnn3 mnist coslu
+2024-05-11 14:20:38,639 | INFO | processed dnn5 mnist coslu
+2024-05-11 14:22:32,270 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:22:32,375 | INFO | processed dnn2 mnist coslu
+2024-05-11 14:22:32,481 | INFO | processed dnn3 mnist coslu
+2024-05-11 14:22:32,539 | INFO | processed dnn5 mnist coslu
+2024-05-11 14:23:06,490 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:23:06,595 | INFO | processed dnn2 mnist coslu
+2024-05-11 14:23:06,702 | INFO | processed dnn3 mnist coslu
+2024-05-11 14:23:06,764 | INFO | processed dnn5 mnist coslu
+2024-05-11 14:23:22,245 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:23:22,360 | INFO | processed dnn2 mnist coslu
+2024-05-11 14:23:22,484 | INFO | processed dnn3 mnist coslu
+2024-05-11 14:23:22,546 | INFO | processed dnn5 mnist coslu
+2024-05-11 18:18:47,540 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 18:18:47,646 | INFO | processed dnn2 mnist coslu
+2024-05-11 18:18:47,752 | INFO | processed dnn3 mnist coslu
+2024-05-11 18:18:47,812 | INFO | processed dnn5 mnist coslu

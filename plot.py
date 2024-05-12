@@ -57,17 +57,35 @@ def _plot(
         )
 
         if idx % 2 == 0:
-            ax.plot(
-                epochs,
-                train_loss,
-                label=f'train_{act.lower()}'
-            )
+            if act == 'CosSinLU':
+                ax.plot(
+                    epochs,
+                    train_loss,
+                    label=f'train_{act.lower()}',
+                    marker='o',
+                    markersize=4
+                )
+            else:
+                ax.plot(
+                    epochs,
+                    train_loss,
+                    label=f'train_{act.lower()}',
+                )
         else:
-            ax.plot(
-                epochs,
-                valid_loss,
-                label=f'valid_{act.lower()}'
-            )
+            if act == 'CosSinLU':
+                ax.plot(
+                    epochs,
+                    valid_loss,
+                    label=f'valid_{act.lower()}',
+                    marker='o',
+                    markersize=4
+                )
+            else:
+                ax.plot(
+                    epochs,
+                    valid_loss,
+                    label=f'valid_{act.lower()}'
+                )
         if idx % 2 == 1:
             logger.info(
                 f'processed {model.lower()} {dataset.lower()} {act.lower()}'

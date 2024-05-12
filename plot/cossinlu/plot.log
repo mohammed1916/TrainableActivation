@@ -1,0 +1,160 @@
+2024-05-11 13:56:01,314 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 13:56:01,428 | INFO | processed dnn2 mnist cossinlu
+2024-05-11 13:56:01,536 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 13:56:01,537 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 13:56:01,588 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 13:56:01,588 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:00:13,817 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:00:13,905 | INFO | processed dnn2 mnist cossinlu
+2024-05-11 14:00:14,018 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:00:14,018 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:00:14,070 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:00:14,070 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:05:27,577 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:05:27,692 | INFO | processed dnn2 mnist cossinlu
+2024-05-11 14:05:27,801 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:05:27,802 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:05:27,852 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:05:27,853 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:14:59,015 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:14:59,112 | INFO | processed dnn2 mnist cossinlu
+2024-05-11 14:14:59,224 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:14:59,225 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:14:59,280 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:14:59,280 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:15:37,568 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:15:50,931 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:16:08,316 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:17:06,121 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:17:06,230 | INFO | processed dnn2 mnist cossinlu
+2024-05-11 14:17:06,339 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:17:06,340 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:17:06,396 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:17:06,396 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:19:40,597 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:20:02,977 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:20:03,088 | INFO | processed dnn2 mnist cossinlu
+2024-05-11 14:20:03,199 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:20:03,200 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:20:03,250 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:20:03,251 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:20:39,082 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:20:39,190 | INFO | processed dnn2 mnist cossinlu
+2024-05-11 14:20:39,299 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:20:39,299 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:20:39,352 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:20:39,353 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:22:32,965 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:22:33,071 | INFO | processed dnn2 mnist cossinlu
+2024-05-11 14:22:33,179 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:22:33,180 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:22:33,230 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:22:33,231 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:23:07,270 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:23:07,377 | INFO | processed dnn2 mnist cossinlu
+2024-05-11 14:23:07,493 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:23:07,493 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:23:07,549 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:23:07,549 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:23:22,983 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 14:23:23,093 | INFO | processed dnn2 mnist cossinlu
+2024-05-11 14:23:23,209 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:23:23,210 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:23:23,262 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 14:23:23,263 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 18:18:48,230 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU']
+log_path: ./logs/
+plot_path: ./plot/cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-11 18:18:48,333 | INFO | processed dnn2 mnist cossinlu
+2024-05-11 18:18:48,444 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 18:18:48,444 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 18:18:48,499 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.
+2024-05-11 18:18:48,499 | WARNING | No artists with labels found to put in legend.  Note that artists whose label start with an underscore are ignored when legend() is called with no argument.

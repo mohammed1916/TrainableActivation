@@ -1,0 +1,100 @@
+2024-05-11 13:54:14,013 | INFO | 
+model:
+  name: DNN2
+  architecture:
+    in_channels: 784
+    out_channels: 10
+    activation: CosSinLU
+optimizer:
+  name: Adam
+  parameters:
+    lr: 0.0003
+    weight_decay: 1e-05
+scheduler:
+  num: 1
+  scheduler0:
+    name: ExponentialLR
+    parameters:
+      gamma: 0.5
+dataset:
+  name: MNIST
+  batch_size: 32
+  split:
+    train: 0.9
+    valid: 0.1
+    test: 1.0
+train:
+  epochs: 10
+  device: cuda:0
+  save_path: ./checkpoints/cossinlu/mnist/
+  log_path: ./logs/cossinlu/mnist/
+  seed: 42
+  save_every: 2
+test:
+  device: cuda:0
+  checkpoint: ./checkpoints/cossinlu/mnist/
+  log_path: ./logs/cossinlu/mnist/
+  seed: 42
+2024-05-11 13:54:14,013 | INFO | 
+DNN(
+  (first_fc): Linear(in_features=784, out_features=392, bias=True)
+  (first_act): CosSinLU()
+  (last_fc): Linear(in_features=392, out_features=10, bias=True)
+)
+2024-05-11 13:54:14,013 | INFO | 
+CrossEntropyLoss()
+2024-05-11 13:55:05,308 | INFO | 
+model:
+  name: DNN2
+  architecture:
+    in_channels: 784
+    out_channels: 10
+    activation: CosSinLU
+optimizer:
+  name: Adam
+  parameters:
+    lr: 0.0003
+    weight_decay: 1e-05
+scheduler:
+  num: 1
+  scheduler0:
+    name: ExponentialLR
+    parameters:
+      gamma: 0.5
+dataset:
+  name: MNIST
+  batch_size: 32
+  split:
+    train: 0.9
+    valid: 0.1
+    test: 1.0
+train:
+  epochs: 10
+  device: cuda:0
+  save_path: ./checkpoints/cossinlu/mnist/
+  log_path: ./logs/cossinlu/mnist/
+  seed: 42
+  save_every: 2
+test:
+  device: cuda:0
+  checkpoint: ./checkpoints/cossinlu/mnist/
+  log_path: ./logs/cossinlu/mnist/
+  seed: 42
+2024-05-11 13:55:05,308 | INFO | 
+DNN(
+  (first_fc): Linear(in_features=784, out_features=392, bias=True)
+  (first_act): CosSinLU()
+  (last_fc): Linear(in_features=392, out_features=10, bias=True)
+)
+2024-05-11 13:55:05,308 | INFO | 
+CrossEntropyLoss()
+2024-05-11 13:55:06,912 | INFO | cuda:0 ckpt: ./checkpoints/cossinlu/mnist/dnn2/ep=5_lv=0.27.pth test_loss: 0.1604 test_accuracy: 0.954 test_precision: 0.966 test_recall: 0.954 test_f1: 0.954
+2024-05-11 13:55:08,496 | INFO | cuda:0 ckpt: ./checkpoints/cossinlu/mnist/dnn2/ep=10_lv=0.26.pth test_loss: 0.1550 test_accuracy: 0.956 test_precision: 0.968 test_recall: 0.956 test_f1: 0.956
+2024-05-11 13:55:10,015 | INFO | cuda:0 ckpt: ./checkpoints/cossinlu/mnist/dnn2/ep=6_lv=0.26.pth test_loss: 0.1569 test_accuracy: 0.954 test_precision: 0.966 test_recall: 0.954 test_f1: 0.954
+2024-05-11 13:55:11,541 | INFO | cuda:0 ckpt: ./checkpoints/cossinlu/mnist/dnn2/ep=8_lv=0.26.pth test_loss: 0.1553 test_accuracy: 0.957 test_precision: 0.968 test_recall: 0.957 test_f1: 0.957
+2024-05-11 13:55:13,072 | INFO | cuda:0 ckpt: ./checkpoints/cossinlu/mnist/dnn2/ep=4_lv=0.27.pth test_loss: 0.1625 test_accuracy: 0.952 test_precision: 0.965 test_recall: 0.952 test_f1: 0.952
+2024-05-11 13:55:14,611 | INFO | cuda:0 ckpt: ./checkpoints/cossinlu/mnist/dnn2/ep=3_lv=0.29.pth test_loss: 0.1665 test_accuracy: 0.952 test_precision: 0.965 test_recall: 0.952 test_f1: 0.953
+2024-05-11 13:55:16,124 | INFO | cuda:0 ckpt: ./checkpoints/cossinlu/mnist/dnn2/ep=7_lv=0.25.pth test_loss: 0.1563 test_accuracy: 0.956 test_precision: 0.967 test_recall: 0.956 test_f1: 0.956
+2024-05-11 13:55:17,665 | INFO | cuda:0 ckpt: ./checkpoints/cossinlu/mnist/dnn2/ep=1_lv=0.44.pth test_loss: 0.2671 test_accuracy: 0.923 test_precision: 0.942 test_recall: 0.923 test_f1: 0.923
+2024-05-11 13:55:19,208 | INFO | cuda:0 ckpt: ./checkpoints/cossinlu/mnist/dnn2/ep=2_lv=0.32.pth test_loss: 0.2027 test_accuracy: 0.944 test_precision: 0.959 test_recall: 0.944 test_f1: 0.944
+2024-05-11 13:55:19,208 | INFO | total_time: 13.865 sec
