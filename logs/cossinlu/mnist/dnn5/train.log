@@ -268,3 +268,93 @@ CrossEntropyLoss()
 2024-05-12 15:11:08,565 | INFO | cuda:0 epoch: 10/10 train_loss: 0.1262 valid_loss: 0.1472 epoch_time: 10.314 sec
 2024-05-12 15:11:17,153 | INFO | 
 train_accuracy: 0.961 train_precision: 0.970 train_recall: 0.961 train_f1: 0.961 valid_accuracy: 0.957 valid_precision: 0.967 valid_recall: 0.957 valid_f1: 0.957 total_time: 108.610 sec
+2024-05-12 15:13:15,381 | INFO | 
+model:
+  name: DNN5
+  architecture:
+    in_channels: 784
+    out_channels: 10
+    activation: CosSinLU
+optimizer:
+  name: Adam
+  parameters:
+    lr: 0.0003
+    weight_decay: 1e-05
+scheduler:
+  num: 1
+  scheduler0:
+    name: ExponentialLR
+    parameters:
+      gamma: 0.5
+dataset:
+  name: MNIST
+  batch_size: 32
+  split:
+    train: 0.9
+    valid: 0.1
+    test: 1.0
+train:
+  epochs: 10
+  device: cuda:0
+  save_path: ./checkpoints/cossinlu/mnist/
+  log_path: ./logs/cossinlu/mnist/
+  seed: 42
+  save_every: 2
+test:
+  device: cuda:0
+  checkpoint: ./checkpoints/cossinlu/mnist/
+  log_path: ./logs/cossinlu/mnist/
+  seed: 42
+2024-05-12 15:13:15,382 | INFO | 
+DNN(
+  (first_fc): Linear(in_features=784, out_features=512, bias=True)
+  (first_act): CosSinLU()
+  (layers): Sequential(
+    (0): Linear(in_features=512, out_features=256, bias=True)
+    (1): CosSinLU()
+    (2): Linear(in_features=256, out_features=128, bias=True)
+    (3): CosSinLU()
+    (4): Linear(in_features=128, out_features=64, bias=True)
+    (5): CosSinLU()
+  )
+  (last_fc): Linear(in_features=64, out_features=10, bias=True)
+)
+2024-05-12 15:13:15,382 | INFO | 
+Adam (
+Parameter Group 0
+    amsgrad: False
+    betas: (0.9, 0.999)
+    capturable: False
+    differentiable: False
+    eps: 1e-08
+    foreach: None
+    fused: None
+    initial_lr: 0.0003
+    lr: 0.0003
+    maximize: False
+    weight_decay: 1e-05
+)
+2024-05-12 15:13:15,382 | INFO | 
+ExponentialLR (
+  gamma: 0.5
+  base_lrs: [0.0003]
+  last_epoch: 0
+  verbose: False
+  _step_count: 1
+  _get_lr_called_within_step: False
+  _last_lr: [0.0003]
+)
+2024-05-12 15:13:15,382 | INFO | 
+CrossEntropyLoss()
+2024-05-12 15:13:25,983 | INFO | cuda:0 epoch: 1/10 train_loss: 0.5197 valid_loss: 0.2883 epoch_time: 10.541 sec
+2024-05-12 15:13:36,392 | INFO | cuda:0 epoch: 2/10 train_loss: 0.2183 valid_loss: 0.2125 epoch_time: 10.409 sec
+2024-05-12 15:13:46,553 | INFO | cuda:0 epoch: 3/10 train_loss: 0.1715 valid_loss: 0.1758 epoch_time: 10.161 sec
+2024-05-12 15:13:56,804 | INFO | cuda:0 epoch: 4/10 train_loss: 0.1455 valid_loss: 0.1656 epoch_time: 10.250 sec
+2024-05-12 15:14:07,006 | INFO | cuda:0 epoch: 5/10 train_loss: 0.1325 valid_loss: 0.1520 epoch_time: 10.202 sec
+2024-05-12 15:14:17,322 | INFO | cuda:0 epoch: 6/10 train_loss: 0.1289 valid_loss: 0.1433 epoch_time: 10.316 sec
+2024-05-12 15:14:27,565 | INFO | cuda:0 epoch: 7/10 train_loss: 0.1265 valid_loss: 0.1427 epoch_time: 10.243 sec
+2024-05-12 15:14:39,173 | INFO | cuda:0 epoch: 8/10 train_loss: 0.1241 valid_loss: 0.1438 epoch_time: 11.608 sec
+2024-05-12 15:14:50,032 | INFO | cuda:0 epoch: 9/10 train_loss: 0.1232 valid_loss: 0.1339 epoch_time: 10.858 sec
+2024-05-12 15:15:00,331 | INFO | cuda:0 epoch: 10/10 train_loss: 0.1223 valid_loss: 0.1400 epoch_time: 10.299 sec
+2024-05-12 15:15:09,321 | INFO | 
+train_accuracy: 0.962 train_precision: 0.971 train_recall: 0.962 train_f1: 0.962 valid_accuracy: 0.957 valid_precision: 0.968 valid_recall: 0.957 valid_f1: 0.957 total_time: 104.890 sec
