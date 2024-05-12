@@ -862,3 +862,43 @@ clip: [0.0, 3.0]
 2024-05-12 15:15:28,358 | INFO | processed dnn5 mnist sinlu
 2024-05-12 15:15:28,359 | INFO | processed dnn5 mnist coslu
 2024-05-12 15:15:28,359 | INFO | processed dnn5 mnist normlincomb
+2024-05-12 15:18:33,411 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['Default', 'CosSinLU', 'LinComb', 'ReLUN', 'ScaledSoftSign', 'ShiLU', 'HELU', 'DELU', 'SinLU', 'CosLU', 'NormLinComb']
+log_path: ./logs/
+plot_path: ./plot/full/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-12 15:18:33,537 | INFO | processed dnn2 mnist default
+2024-05-12 15:18:33,537 | INFO | processed dnn2 mnist cossinlu
+2024-05-12 15:18:33,537 | INFO | processed dnn2 mnist lincomb
+2024-05-12 15:18:33,538 | INFO | processed dnn2 mnist relun
+2024-05-12 15:18:33,538 | INFO | processed dnn2 mnist scaledsoftsign
+2024-05-12 15:18:33,538 | INFO | processed dnn2 mnist shilu
+2024-05-12 15:18:33,539 | INFO | processed dnn2 mnist helu
+2024-05-12 15:18:33,539 | INFO | processed dnn2 mnist delu
+2024-05-12 15:18:33,539 | INFO | processed dnn2 mnist sinlu
+2024-05-12 15:18:33,540 | INFO | processed dnn2 mnist coslu
+2024-05-12 15:18:33,540 | INFO | processed dnn2 mnist normlincomb
+2024-05-12 15:18:33,719 | INFO | processed dnn3 mnist default
+2024-05-12 15:18:33,719 | INFO | processed dnn3 mnist cossinlu
+2024-05-12 15:18:33,719 | INFO | processed dnn3 mnist lincomb
+2024-05-12 15:18:33,720 | INFO | processed dnn3 mnist relun
+2024-05-12 15:18:33,720 | INFO | processed dnn3 mnist scaledsoftsign
+2024-05-12 15:18:33,720 | INFO | processed dnn3 mnist shilu
+2024-05-12 15:18:33,721 | INFO | processed dnn3 mnist helu
+2024-05-12 15:18:33,721 | INFO | processed dnn3 mnist delu
+2024-05-12 15:18:33,721 | INFO | processed dnn3 mnist sinlu
+2024-05-12 15:18:33,722 | INFO | processed dnn3 mnist coslu
+2024-05-12 15:18:33,722 | INFO | processed dnn3 mnist normlincomb
+2024-05-12 15:18:33,827 | INFO | processed dnn5 mnist default
+2024-05-12 15:18:33,828 | INFO | processed dnn5 mnist cossinlu
+2024-05-12 15:18:33,828 | INFO | processed dnn5 mnist lincomb
+2024-05-12 15:18:33,829 | INFO | processed dnn5 mnist relun
+2024-05-12 15:18:33,829 | INFO | processed dnn5 mnist scaledsoftsign
+2024-05-12 15:18:33,829 | INFO | processed dnn5 mnist shilu
+2024-05-12 15:18:33,830 | INFO | processed dnn5 mnist helu
+2024-05-12 15:18:33,830 | INFO | processed dnn5 mnist delu
+2024-05-12 15:18:33,830 | INFO | processed dnn5 mnist sinlu
+2024-05-12 15:18:33,831 | INFO | processed dnn5 mnist coslu
+2024-05-12 15:18:33,831 | INFO | processed dnn5 mnist normlincomb
