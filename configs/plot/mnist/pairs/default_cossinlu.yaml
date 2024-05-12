@@ -1,6 +1,6 @@
 models: [DNN2, DNN3, DNN5]
 datasets: [MNIST]
-activations: [Default, CosSinLU]
+activations: [CosSinLU, Default, CosLU]
 log_path: ./logs/
 plot_path: ./plot/pairs/default_cossinlu/
 dpi: 70

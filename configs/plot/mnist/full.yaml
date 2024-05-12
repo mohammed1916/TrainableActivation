@@ -3,6 +3,7 @@ datasets: [MNIST]
 activations:
   [
     Default,
+    CosSinLU,
     LinComb,
     ReLUN,
     ScaledSoftSign,
