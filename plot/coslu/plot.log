@@ -248,3 +248,13 @@ clip: [0.0, 3.0]
 2024-05-12 15:21:35,470 | INFO | processed dnn2 mnist coslu
 2024-05-12 15:21:35,577 | INFO | processed dnn3 mnist coslu
 2024-05-12 15:21:35,637 | INFO | processed dnn5 mnist coslu
+2024-05-12 15:25:17,076 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosLU']
+log_path: ./logs/
+plot_path: ./plot/coslu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-12 15:25:17,184 | INFO | processed dnn2 mnist coslu
+2024-05-12 15:25:17,294 | INFO | processed dnn3 mnist coslu
+2024-05-12 15:25:17,356 | INFO | processed dnn5 mnist coslu

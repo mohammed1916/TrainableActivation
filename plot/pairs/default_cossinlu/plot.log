@@ -465,3 +465,19 @@ clip: [0.0, 3.0]
 2024-05-12 15:21:37,760 | INFO | processed dnn5 mnist cossinlu
 2024-05-12 15:21:37,760 | INFO | processed dnn5 mnist default
 2024-05-12 15:21:37,761 | INFO | processed dnn5 mnist coslu
+2024-05-12 15:25:19,203 | INFO | models: ['DNN2', 'DNN3', 'DNN5']
+datasets: ['MNIST']
+activations: ['CosSinLU', 'Default', 'CosLU']
+log_path: ./logs/
+plot_path: ./plot/pairs/default_cossinlu/
+dpi: 70
+clip: [0.0, 3.0]
+2024-05-12 15:25:19,311 | INFO | processed dnn2 mnist cossinlu
+2024-05-12 15:25:19,312 | INFO | processed dnn2 mnist default
+2024-05-12 15:25:19,312 | INFO | processed dnn2 mnist coslu
+2024-05-12 15:25:19,429 | INFO | processed dnn3 mnist cossinlu
+2024-05-12 15:25:19,429 | INFO | processed dnn3 mnist default
+2024-05-12 15:25:19,430 | INFO | processed dnn3 mnist coslu
+2024-05-12 15:25:19,501 | INFO | processed dnn5 mnist cossinlu
+2024-05-12 15:25:19,502 | INFO | processed dnn5 mnist default
+2024-05-12 15:25:19,502 | INFO | processed dnn5 mnist coslu
